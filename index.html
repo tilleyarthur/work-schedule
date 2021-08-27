@@ -5,19 +5,91 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  
+  
+  
 </head>
 <body>
-<div class="container-fluid">
-  <h2>example</h2>
-  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo, ducimus commodi suscipit adipisci odit nesciunt. Eveniet rem consequuntur quia minima tempora dignissimos, animi doloribus vel laboriosam, error sed asperiores ratione!</p>
+<div class="container">
+  <div>
+    <h2>
+      Work Day Scheduler
+    </h2>
+    <p>
+    A simple calendar app for scheduling your work day
+    
+    </p>
+    <!-- current day (ie thursday, september 5th -->
+    <div id="currentTime"></div>
+
+  </div>
+  
+  
   <div class="row">
-    <div class="col-1">col-1</div>
-    <div class="col-10">col-10</div>
-    <div class="col-1">col-1</div>
+    <span class="border border-dark"></span>
+    <div class="col-1 bg-light text-dark mb-3">9AM</div>
+    <div class="col-8 bg-light text-dark"></div>
+    <div class="col-1 bg-light text-dark btn-col">
+      <button id="save-event" class="btn btn-block btn-primary"></button>
+    </div>
+  </div>
+  <div class="row">
+    <span class="border border-dark"></span>
+    <div class="col-1 bg-light text-dark mb-3">10AM</div>
+    <div class="col-10 bg-light text-dark"></div>
+    <div class="col-1 bg-light text-dark"></div>
+  </div>
+  <div class="row">
+    <span class="border border-dark"></span>
+    <div class="col-1 bg-light text-dark mb-3">11AM</div>
+    <div class="col-10 bg-light text-dark"></div>
+    <div class="col-1 bg-light text-dark"></div>
+  </div>
+  <div class="row">
+    <span class="border border-dark"></span>
+    <div class="col-1 bg-light text-dark mb-3">12PM</div>
+    <div class="col-10 bg-danger text-dark"></div>
+    <div class="col-1 bg-light text-dark"></div>
+  </div>
+  <div class="row ">
+    <span class="border border-dark"></span>
+    <div class="col-1 bg-light text-dark mb-3">1PM</div>
+    <div class="col-10 bg-success text-dark"></div>
+    <div class="col-1 bg-light text-dark"></div>
+  </div>
+  <div class="row ">
+    <span class="border border-dark"></span>
+    <div class="col-1 bg-light text-dark mb-3">2PM</div>
+    <div class="col-10 bg-success text-dark"></div>
+    <div class="col-1 bg-light text-dark"></div>
+  </div>
+  <div class="row ">
+    <span class="border border-dark"></span>
+    <div class="col-1 bg-light text-dark mb-3">3PM</div>
+    <div class="col-10 bg-success text-dark"></div>
+    <div class="col-1 bg-light text-dark"></div>
+  </div>
+  <div class="row ">
+    <span class="border border-dark"></span>
+    <div class="col-1 bg-light text-dark mb-3">4PM</div>
+    <div class="col-10 bg-success text-dark"></div>
+    <div class="col-1 bg-light text-dark"></div>
+  </div>
+  <div class="row ">
+    <span class="border border-dark"></span>
+    <div class="col-1 bg-light text-dark mb-3">5PM</div>
+    <div class="col-10 bg-success text-dark"></div>
+    <div class="col-1 bg-light text-dark"></div>
+    <span class="border border-dark"></span>
+  </div>
+    
+      
   </div>
 </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
 </html>
