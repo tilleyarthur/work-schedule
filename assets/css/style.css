@@ -1,4 +1,14 @@
-.container h2 {
+
+.title {
+  width: 100%;
+  border-bottom-style: solid;
+  padding: 50px;
+}
+
+
+  
+  
+.container .title h2 {
   display: flex;
   text-align: center;
   padding-top: 50px;
@@ -7,10 +17,14 @@
   justify-content: center;
 }
 
-.container p {
+.container .title p {
   display: flex;
   text-align: center;
   justify-content: center;
+}
+
+.schedule {
+  padding: 50px;
 }
 
 .col-1 {
@@ -20,8 +34,11 @@
   padding: 15px;
 }
 
-.btn-col {
-  display: flex;
-  
+.col-1 .btn {
+  background-color: #0dcaf0;;
+}
+
+.col-10 {
+  background-color: #dee2e6;
 }
 
