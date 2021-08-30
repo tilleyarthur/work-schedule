@@ -1,3 +1,5 @@
+moment().format('dddd MMMM Do');
+
 var schedule = {};
 var saveButton = document.querySelector('#save-button');
 
@@ -26,32 +28,17 @@ var createSchedule = function(scheduleTextArea, scheduleTime) {
   auditSchedule(scheduleSection);
 };
 
-var loadSchedule = function() {
-  schedule = JSON.parse(localStorage.getItem('planner'));
 
-  $.each(schedule, function {
-    
-    createSchedule(schedule.text, schedule.date);
-    });
-  }
 
-s
     
 var saveSchedule = function () {
-  schedule = JSON.parse(localStorage.getItem('time-block'));
+  schedule = JSON.parse(localStorage.getItem('time-block', timeBlock));
 
   if (!time-block) {
     timeBlock = {};
   }
-ß
-  $.each(timeBlock, function {
-    
-    
-    arr.forEach(function (timeBlock) {
-      createSchedule(timeBlock.text, timeBlock.date);
-    });
-  });
-};
+
+  
 
 saveButton.addEventListener('click', function(event) {
   event.preventDefault();

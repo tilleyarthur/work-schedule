@@ -16,125 +16,75 @@
       </h2>
       <p>
       A simple calendar app for scheduling your work day
-      </p>
-      <!-- current day (ie thursday, september 5th -->
-      <p>
-        <script type="text/javascript">
       
-          var currentTime = new Date()
-            var month = currentTime.getMonth() + 1
-            var day = currentTime.getDate()
-            var year = currentTime.getFullYear()
-            document.write(month + "/" + day + "/" + year)
-      
-        </script>
-      </p>
-
     </div>
-    
-    
-    <main class="container">
+    <main class="planner">
       
       <section class="row">
         <span class="border border-dark"></span>
         <time class="col-1 bg-light text-dark mb-3">9AM</time>
-        <div class="col-10 text-dark">
-          <textarea id="timeblock" class="event-group"></textarea>
-        </div>
-        <div class="col-1 text-dark bg-color">
-          <button id="save-event" class="btn btn-block btn-col"></button>
-        </div>
+        <textarea id="timeblock" class="col-10 text-dark event-group"></textarea>
+        <button id="save-event" class="col-1 text-dark bg-color btn btn-block btn-col">Save</button>
+      </section>  
+          
+      <section class="row">
+        <span class="border border-dark"></span>
+        <time class="col-1 bg-light text-dark mb-3">10AM</time>
+        <textarea id="timeblock" class="col-10 text-dark event-group"></textarea>
+        <button id="save-event" class="col-1 text-dark bg-color btn btn-block btn-col">Save</button>
       </section>
       
-      <div class="row">
+      <section class="row">
         <span class="border border-dark"></span>
-        <div class="col-1 bg-light text-dark mb-3">10AM</div>
-        <div class="col-10 text-dark">
-          <textarea id="timeblock" class="event-group"></textarea>
-        </div>
-        <div class="col-1 bg-light text-dark">
-          <button id="save-event" class="btn btn-block btn-primary btn-col"></button>
-        </div>
-      </div>
+        <time class="col-1 bg-light text-dark mb-3">11AM</time>
+        <textarea id="timeblock" class="col-10 text-dark event-group"></textarea>
+        <button id="save-event" class="col-1 text-dark bg-color btn btn-block btn-col">Save</button>
+      </section>
       
-      <div class="row">
+      <section class="row">
         <span class="border border-dark"></span>
-        <div class="col-1 bg-light text-dark mb-3">11AM</div>
-        <div class="col-10 text-dark">
-          <textarea id="timeblock" class="event-group"></textarea>
-        </div>
-        <div class="col-1 bg-light text-dark">
-          <button id="save-event" class="btn btn-block btn-primary btn-col"></button>
-        </div>
-      </div>
+        <time class="col-1 bg-light text-dark mb-3">12PM</time>
+        <textarea id="timeblock" class="col-10 text-dark event-group"></textarea>
+        <button id="save-event" class="col-1 text-dark bg-color btn btn-block btn-col">Save</button>
+      </section>
       
-      <div class="row">
+      <section class="row">
         <span class="border border-dark"></span>
-        <div class="col-1 bg-light text-dark mb-3">12PM</div>
-        <div class="col-10 bg-light text-dark">
-          <textarea id="timeblock" class="event-group"></textarea>
-        </div>
-        <div class="col-1 bg-light text-dark">
-          <button id="save-event" class="btn btn-block btn-primary btn-col"></button>
-        </div>
-      </div>
+        <time class="col-1 bg-light text-dark mb-3">1PM</time>
+        <textarea id="timeblock" class="col-10 text-dark event-group"></textarea>
+        <button id="save-event" class="col-1 text-dark bg-color btn btn-block btn-col">Save</button>
+      </section>
       
-      <div class="row">
+      <section class="row">
         <span class="border border-dark"></span>
-        <div class="col-1 bg-light text-dark mb-3">1PM</div>
-        <div class="col-10 bg-light text-dark">
-          <textarea id="timeblock" class="event-group"></textarea>
-        </div>
-        <div class="col-1 bg-light text-dark">
-          <button id="save-event" class="btn btn-block btn-primary btn-col"></button>
-        </div>
-      </div>
+        <time class="col-1 bg-light text-dark mb-3">2PM</time>
+        <textarea id="timeblock" class="col-10 text-dark event-group"></textarea>
+        <button id="save-event" class="col-1 text-dark bg-color btn btn-block btn-col">Save</button>
+      </section>
       
-      <div class="row">
+      <section class="row">
         <span class="border border-dark"></span>
-        <div class="col-1 bg-light text-dark mb-3">2PM</div>
-        <div class="col-10 bg-light text-dark">
-          <textarea id="timeblock" class="event-group"></textarea>
-        </div>
-        <div class="col-1 bg-light text-dark">
-          <button id="save-event" class="btn btn-block btn-primary btn-col"></button>
-        </div>
-      </div>
+        <time class="col-1 bg-light text-dark mb-3">3PM</time>
+        <textarea id="timeblock" class="col-10 text-dark event-group"></textarea>
+        <button id="save-event" class="col-1 text-dark bg-color btn btn-block btn-col">Save</button>
+      </section>
       
-      <div class="row">
+      <section class="row">
         <span class="border border-dark"></span>
-        <div class="col-1 bg-light text-dark mb-3">3PM</div>
-        <div class="col-10 bg-light text-dark">
-          <textarea id="timeblock" class="event-group"></textarea>
-        </div>
-        <div class="col-1 bg-light text-dark">
-          <button id="save-event" class="btn btn-block btn-primary btn-col"></button>
-        </div>
-      </div>
+        <time class="col-1 bg-light text-dark mb-3">4PM</time>
+        <textarea id="timeblock" class="col-10 text-dark event-group"></textarea>
+        <button id="save-event" class="col-1 text-dark bg-color btn btn-block btn-col">Save</button>
+      </section>
       
-      <div class="row">
+      <section class="row">
         <span class="border border-dark"></span>
-        <div class="col-1 bg-light text-dark mb-3">4PM</div>
-        <div class="col-10 bg-light text-dark">
-          <textarea id="timeblock" class="event-group"></textarea>
-        </div>
-        <div class="col-1 bg-light text-dark">
-          <button id="save-event" class="btn btn-block btn-primary btn-col"></button>
-        </div>
-      </div>
+        <time class="col-1 bg-light text-dark mb-3">5PM</time>
+        <textarea id="timeblock" class="col-10 text-dark event-group"></textarea>
+        <button id="save-event" class="col-1 text-dark bg-color btn btn-block btn-col">Save</button>
+      </section>
       
-      <div class="row">
-        <span class="border border-dark"></span>
-        <div class="col-1 bg-light text-dark mb-3">5PM</div>
-        <div class="col-10 bg-light text-dark">
-          <textarea id="timeblock" class="event-group"></textarea>
-        </div>
-        <div class="col-1 bg-light text-dark">
-          <button id="save-event" class="btn btn-block btn-primary btn-col"></button>
-        </div>
-      </div>
-    
     </main>
+    
     
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
